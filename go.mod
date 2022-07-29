@@ -1,4 +1,4 @@
-module github.com/adnvilla/boletia
+module github.com/jesus87/currencyapi
 
 go 1.18
 

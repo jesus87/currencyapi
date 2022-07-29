@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/adnvilla/boletia/repository"
+	"github.com/jesus87/currencyapi/repository"
 )
 
 func ApiModelToRepoModel(apimodel CurrencyLatest) ([]repository.Currencies, time.Time) {

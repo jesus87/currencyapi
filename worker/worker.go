@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/adnvilla/boletia/config"
-	"github.com/adnvilla/boletia/repository"
+	"github.com/jesus87/currencyapi/config"
+	"github.com/jesus87/currencyapi/repository"
 )
 
 func Start(cfg config.ConfigServer, rc *repository.CurrencyRepository, rh *repository.HistoryApiRepository) {

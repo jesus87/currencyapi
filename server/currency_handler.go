@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/adnvilla/boletia/repository"
 	"github.com/gin-gonic/gin"
+	"github.com/jesus87/currencyapi/repository"
 )
 
 const (

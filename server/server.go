@@ -3,10 +3,10 @@ package server
 import (
 	"time"
 
-	"github.com/adnvilla/boletia/config"
-	"github.com/adnvilla/boletia/repository"
 	"github.com/gin-contrib/timeout"
 	"github.com/gin-gonic/gin"
+	"github.com/jesus87/currencyapi/config"
+	"github.com/jesus87/currencyapi/repository"
 )
 
 func SetupRute(cfg config.ConfigServer, currency *repository.CurrencyRepository) *gin.Engine {

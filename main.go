@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/adnvilla/boletia/config"
-	"github.com/adnvilla/boletia/repository"
-	"github.com/adnvilla/boletia/server"
-	"github.com/adnvilla/boletia/worker"
+	"github.com/jesus87/currencyapi/config"
+	"github.com/jesus87/currencyapi/repository"
+	"github.com/jesus87/currencyapi/server"
+	"github.com/jesus87/currencyapi/worker"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
