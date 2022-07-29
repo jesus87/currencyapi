@@ -1,0 +1,10 @@
+{
+    "FreeCurrencyReloadLatestTimeMs":10000,
+    "FreeCurrencyTimeOutMs": 2000,
+    "FreeCurrencyApiKey": "",
+    "PostgresHost":"localhost",
+    "PostgresDatabase":"database",
+    "PostgresUser":"user",
+    "PostgresPass":"pass",
+    "PostgresPort":"5432"
+}
