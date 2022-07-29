@@ -1,0 +1,10 @@
+{
+    "reeCurrencyReloadLatestTimeMs":10
+    "reeCurrencyTimeOutMs": 20
+    "reeCurrencyApiKey": "qwerty"
+    "ostgresHost":"127.0.0.1"
+    "ostgresDatabase":"dbname"
+    "ostgresUser":"pgyser"
+    "ostgresPass":"postgres"
+    "ostgresPort":"5436"
+}

@@ -14,7 +14,7 @@ import (
 var dsn = "host=%s user=%s password=%s dbname=%s port=%s sslmode=disable"
 
 func main() {
-	cfg := config.LoadConfig()
+	cfg := config.LoadConfig("config.json")
 
 	dnsf := fmt.Sprintf(dsn, cfg.PostgresHost, cfg.PostgresUser, cfg.PostgresPass, cfg.PostgresDatabase, cfg.PostgresPort)
 	db, err := gorm.Open(postgres.Open(dnsf), &gorm.Config{SkipDefaultTransaction: true})

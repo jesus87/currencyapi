@@ -1,0 +1,10 @@
+{
+    "FreeCurrencyReloadLatestTimeMs":10,
+    "FreeCurrencyTimeOutMs": 20,
+    "FreeCurrencyApiKey": "qwerty",
+    "PostgresHost":"127.0.0.1",
+    "PostgresDatabase":"dbname",
+    "PostgresUser":"pgyser",
+    "PostgresPass":"postgres",
+    "PostgresPort":"5436"
+}
