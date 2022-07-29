@@ -1,0 +1,10 @@
+{
+    "FreeCurrencyReloadLatestTimeMs":10000,
+    "FreeCurrencyTimeOutMs": 2000,
+    "FreeCurrencyApiKey": "e5mx5qtLJL66ydsA83KPU8R9c3vWarDxDJpmx26e",
+    "PostgresHost":"localhost",
+    "PostgresDatabase":"boletia",
+    "PostgresUser":"postgres",
+    "PostgresPass":"adminadmin",
+    "PostgresPort":"5432"
+}
